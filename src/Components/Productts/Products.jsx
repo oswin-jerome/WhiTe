@@ -41,10 +41,10 @@ const Products = () => {
     const [toShow,setToShow] = useState('')
 
     return ( 
-        <div className="pt-5" id="Products">
+        <div className="pt-5 mt-5" id="Products">
             <h1 className="text-center mb-5 heading text-secondary bold-text">Our Products</h1>
             <div className="categoryNav mb-5">
-                <ul className="container list-group list-group-horizontal-lg justify-content-center p-sm-0 m-sm-1 m-lg-auto">
+                <ul className="container list-group list-group-horizontal-lg justify-content-center px-3 m-sm-1 m-lg-auto">
                     <li onClick={()=>setToShow("")} className={"list-group-item border-none px-5 "+(toShow==""?"list-act-e":"")}> All Products</li>
                     <li onClick={()=>setToShow("printers")} className={"list-group-item border-none px-5 "+(toShow=="printers"?"list-act-e":"")}>Printers</li>
                     <li onClick={()=>setToShow("scanner")} className={"list-group-item border-none px-5 "+(toShow=="scanner"?"list-act-e":"")}>Scanner</li>
