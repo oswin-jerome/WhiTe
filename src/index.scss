@@ -1,0 +1,56 @@
+/*! `Custom` Bootstrap 4 theme */
+@import url(https://use.fontawesome.com/releases/v5.0.10/css/all.css);
+
+$enable-grid-classes:true;
+$primary:#083358;
+$secondary:#F67280;
+$success:#0074E4;
+$danger:#FF4057;
+$info:#74DBEF;
+$warning:#FC3C3C;
+$light:#F2F2F0;
+$dark:#0e3469;
+$enable-gradients:true;
+$spacer:1rem;
+$border-width:1px;
+$btn-border-radius:.25rem;
+@import "bootstrap";
+
+// $enable-grid-classes:true;
+// $primary:#083358;
+// $secondary:#F67280;
+// $success:#0074E4;
+// $danger:#FF4057;
+// $info:#74DBEF;
+// $warning:#FC3C3C;
+// $light:#F2F2F0;
+// $dark:#072247;
+// $enable-gradients:true;
+// $spacer:1rem;
+// $border-width:1px;
+// $btn-border-radius:.25rem;
+// @import "bootstrap";
+// @import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.list-act-e{
+  border-bottom: 3px solid red;
+}
