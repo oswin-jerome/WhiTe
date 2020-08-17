@@ -26,6 +26,11 @@ const NavBar = () => {
               Home <span class="sr-only">(current)</span>
             </a>
           </li>
+          <li class="nav-item  px-3">
+            <a class="nav-link" href="#About">
+              About <span class="sr-only">(current)</span>
+            </a>
+          </li>
           <li class="nav-item px-3">
             <a class="nav-link" href="#Products">
               Products<span class="sr-only">(current)</span>

@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Hero from './Components/Hero/Hero';
 import Products from './Components/Productts/Products';
 import AboutUs from './Components/AboutUs/AboutUs';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       <NavBar/>
       <Hero/>
       <AboutUs></AboutUs>
-      <Products/>
+      <div className="pt-3" id="Products">
+      <Products />
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
