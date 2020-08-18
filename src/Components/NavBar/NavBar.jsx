@@ -37,8 +37,8 @@ const NavBar = () => {
             </a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#">
-              Pricing
+            <a class="nav-link" href="#Contact">
+              Contact us
             </a>
           </li>
         </ul>
