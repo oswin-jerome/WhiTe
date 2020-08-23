@@ -1,6 +1,8 @@
 import React from "react";
+import ComplaintModal from "../Modal/ComplaintModal";
 const NavBar = () => {
   return (
+    
     <nav class="navbar shadow sticky-top navbar-expand-lg navbar-dark bg-dark d-flex">
       <a class="navbar-brand pl-lg-5 pl-sm-0 " href="#">
         WhiTe<span className="text-secondary">chnalogies</span>
@@ -40,6 +42,9 @@ const NavBar = () => {
             <a class="nav-link" href="#Contact">
               Contact us
             </a>
+          </li>
+          <li class="nav-item px-3">
+            <ComplaintModal className="nav-link"/>
           </li>
         </ul>
       </div>
