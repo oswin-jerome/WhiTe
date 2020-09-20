@@ -50,7 +50,7 @@ const Products = () => {
                 {
                     productData.map((products)=>{
                         if(products.categoryName !== toShow && toShow!=="")
-                        return 0;
+                        return "";
                         return(
                             <div className="col-lg-4 p-2">
                                 <div className="card shadow p-0">
