@@ -22,6 +22,18 @@ const Contact = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>
+
+
+            <div className="row mt-5 text-center">
+                <div className="col-6 p-3 bg-primary text-white container">
+                    <i class="fas fa-phone bs"></i>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div className="col-6 p-3 bg-secondary container">
+                    <i class="fas fa-at bs"></i>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
         </div> 
     );
 }

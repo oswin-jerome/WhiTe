@@ -9,7 +9,7 @@ const AboutUs = () => {
                 <div className="card mt-3 mb-4 c border-0 rounded-lg shadow col-sm-10 col-lg-3  mx-auto">
                     <img className=" avatar" src="https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""/>
                     <div className="card-body">
-                        <h3 className="text-center m-0 card-title text-primary bold">Oswin Jerome</h3>
+                        <h3 className="text-center m-0 card-title text-primary bold">Walden</h3>
                         <p className="text-center mt-1">CEO</p>
                     </div>
                 </div>

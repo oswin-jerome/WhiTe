@@ -3,7 +3,8 @@
 
 $enable-grid-classes:true;
 $primary:#083358;
-$secondary:#F67280;
+// $secondary:#F67280;
+$secondary:#ffb515;
 $success:#0074E4;
 $danger:#FF4057;
 $info:#74DBEF;
@@ -52,7 +53,7 @@ code {
 
 
 .list-act-e{
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid $secondary;
 }
 
 .avatar{
@@ -77,4 +78,10 @@ code {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.685);
+}
+
+.bs{
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 15px;
 }
